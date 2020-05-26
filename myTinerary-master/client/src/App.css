@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Lucida+Sans);
+
+body {
+  overflow: scroll;
+
+  font-family: 'Lobster',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+
+  margin: 0 auto;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 90%;
+  height: 30vh;
+  margin: 0px;
+  background-size: cover;
+  padding-top: 0%;
+
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+.textSize {
+  font: normal 1.125rem 'Lobster'
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: inline-block;
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
+  /* padding: 1%; */
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 2%;
+  margin-bottom: 0;
+}
+
+.d-block {
+  padding: 20px;
+
+}
+
+.d-block input {
+  width: 60%;
+}
+
+a {
+  color: #d2dbe7;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.circle {
+  width: 100px;
+}
+
+.itinerary {
+
+  background-color: #d2dbe7;
+  width: 22rem;
+}
+
+.itinerary img {
+  width: 100%;
+}
+
+.display-2 {
+  color: #cc4928;
+}
+
+.colorNav {
+  background-color: #1c2331;
+}
+
+.footer {
+  background-color: #1c2331;
+  color: white;
+  clear: both;
+}
+
+.navbar-margin {
+  margin-top: 10%;
+}
+
+.card {
+  /* width: 18rem; */
+  background-color: #d2dbe7;
+  display: inline-block;
+  text-align: center;
+  /* margin-left: 10px; */
+}
+
+.city {
+  /* position: absolute; */
+  display: inline-block;
+  position: absolute;
+  float: left;
+  margin: 20px;
+
+
+
+}
+
+.card-img {
+  width: 16rem;
+  height: 16rem;
+}
+
+.imgCarsoul {
+  width: 18rem;
+  border-radius: 10%;
+  background-color: #d2dbe7;
+  height: 18rem;
+  /* float: left; */
+  padding: 2%;
+  /* display: inline-block; */
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-color: hsla(0, 0%, 10%, 0.1);
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .header {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-color: hsla(0, 0%, 10%, 0.1);
+    ;
+    margin: 0 auto;
+  }
+}
+
+
+/* For devices 400px and larger: */
+/* @media only screen and (min-device-width: 400px) {
+  .header {
+    background-image: url('./Component/images/PhotoWithCamera.jpg');
+  }
+} */
+
+.header {
+  background-image: url("./Component/images/PhotoWithCamera.jpg");
+  background-position: 50% 80%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 700px; */
+  /* margin: 0 auto;
+}
+
+.container-for-header-text {
+  text-align: center;
+}
+
+.header-text-wrapper {
+  /* padding-top: 40%; */
+
+  float: none;
+}
+
+.container-for-header-text p {
+  margin-top: 0;
+  font: normal 4vw 'Lobster';
+  color: #cc4928;
+  padding-bottom: 10%;
+  margin-bottom: 0;
+}
+
+.container-for-header-text h1 {
+  font: normal 8vw "Patua One",
+    "Lobster";
+  color: #f66642;
+  margin-top: 0;
+}
+
+.textColor {
+  color: #282c34;
+  display: inline-block;
+  justify-content: center;
+}
+
+.card.card-itinerary-add {
+  background-color: #d2dbe7;
+  text-align: center;
+  display: block;
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+}
+
+.block {
+  display: block;
+  width: 80%;
+}
+
+.carsoulName {
+  color: #3e32da;
+  text-align: center;
+}
+
+.transperant {
+  background-color: hsla(0, 0%, 10%, 0.1);
+
+}

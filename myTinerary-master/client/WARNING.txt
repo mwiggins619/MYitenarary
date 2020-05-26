@@ -1,0 +1,12 @@
+
+- SPELLING!!! (I spent 45 min because you inverted itinerary and user model :/ )
+- refactor and clean code as you progress, (too many console log everywhere makes it hard to debug)
+- be carefull when copy pasting from other components, some naming and comments are very confusing, as well as your use of singular and plural forms
+- rethink your model: name of itinerary is unique so only one itinerary can exist...
+- passing parameters with rest....( req boby,... ) 
+- respect api function parameters (body goes before authentification). check documentation if needed
+- install all packages with npm i so they are in packages.json
+- organise your folder structure: images go asset folder...
+_ a lot of front end issues to fix (fileds not aligned, button not conected )
+- fix the warnings
+- keep in mind that you will code with other people. It is very hard to understand where you are going
